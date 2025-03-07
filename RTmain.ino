@@ -34,16 +34,16 @@ void setup() {
   int k = 0;
   int j = 0;
   char moves[200] = "";
-//B R F L F L F F L F R F R F F R F L F R F F R F L F L F L L F R F L F F L F L F L L F R F R F F L F F R F E
-//F L F L F L F E
-//B L F R F L F R F R F L F L F O F R F R F L F R F F L F R F O F R F F O F L F L F R F L F R F E
-  char UImoves[200] = "B F F F R F L F L F O F R F L F R F R F O F F R F F O F F F L F R F O F L F R F F R F E";
+
+  //Do stuff here
+  char UImoves[200] = "";
   givenTime = 80;
   constMove = false;
   useGyro = true;
   int distAdjust = 0;
   offsetConst = 5.00;//- if its leaning left, + if its leaning right
-  if (useGyro) {
+  
+  if (useGyro) {//some delays so you dont mess up it up when pressing button
     delay(500);
     turnSensorSetup();
   } else {
@@ -51,6 +51,7 @@ void setup() {
   }
   turnSensorReset();
   
+  //all this stuff interprets the char array UImoves into actual movements, dont ask why its so long
   while (!isEnd) {
       if (UImoves[k] != ' ') {
           moves[j] = UImoves[k];
@@ -121,7 +122,7 @@ void setup() {
       } else if (moves[i] == 'B') {
           numMoves[turnCnt] += 33; 
       } else if (moves[i] == 'E') {
-          numMoves[turnCnt] += -8;
+          numMoves[turnCnt] += -8 + distAdjust;
           isEnd = true;
       }
       i++;
