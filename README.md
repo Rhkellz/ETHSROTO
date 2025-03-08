@@ -15,7 +15,7 @@
  * Do keep the wheels/axle clean of hair and debris, and take off the wheels to clean the axle if necessary. 
  * Do have a backup of the files somewhere.
 
-## How to use the robot:
+## How To Use the Robot:
  * Input the desired movements into the char array UImoves, which is near the top of the RTmain.ino file.
  * Always start with B for Begin, which moves it forward 33 cm.
  * F moves it forward 50 cm.
