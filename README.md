@@ -33,7 +33,7 @@
 ## Troubleshooting:
  * The IDE stuck on 'Compiling...'?: If there's no progress bar, close and reopen the IDE. It can be pretty finicky. Otherwise wait.
  * Code not uploading to the robot?: Check if its connected in the bottom right corner of the IDE. If not, go to Tools *> Port.
- * The IDE is just not working?: Make sure the board is 'Pololu A*Star 32U4' in Tools*> Boards.
+ * The IDE is just not working?: Make sure the board is 'Pololu AStar 32U4' in Tools -> Boards.
  * Robot doesnt move when you start it? just reupload and try again, this happens sometimes idk why.
  * Help??: try to contact me maybe.
 
