@@ -19,7 +19,7 @@
  * Input the desired movements into the char array UImoves, which is near the top of the RTmain.ino file.
  * Always start with B for Begin, which moves it forward 33 cm.
  * F moves it forward 50 cm.
- * R and L turns it left and right, and O turns it 180 degrees.
+ * R and L turns it left and right (90 degrees), and O turns it 180 degrees.
  * Always end with E for End, which cuts the movement short by 8 cm.
  * Input the desired time in seconds in the float givenTime.
  * Choose whether to use trapezoidal motion profiles or to move with a constant velocity by setting boolean constMove to true/false. This should basically always be false. Trapezoidal is slightly less accurate theoretically but stops slippage, so maybe try constant movement on really slow tracks?
