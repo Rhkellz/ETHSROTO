@@ -24,6 +24,7 @@ float speed = 0;
 float totalDist;
 float turnTime;
 float targetVel;
+float encK = 2;
 int Rencoder = 0;
 int Lencoder = 0;
 int RencTurn = 0;
