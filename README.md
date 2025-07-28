@@ -2,14 +2,13 @@
 
 ## General Info:
  * The robot is a Pololu Romi
- * The code is based on 'Rotation Resist' from the example programs in Pololu's github
  * This project uses the Arduino IDE (make sure to download all necessary libraries).
 
 
 ## Dos and Don'ts:
  * **DON'T!!** update the board 'Arduino AVR Boards' past 1.8.6 (what its currently at) even if it asks nicely. This will cause the library 'ArduinoSTL' to break.
  * Do keep all the files in a folder with the same name as the INO file (RTmain).
- * Don't mess with the code. (if it ain't broke dont fix it).
+ * Don't mess with the code unless you have a backup.
  * Do make sure you keep the batteries at high charge.
  * Don't touch or move the robot when the yellow LED is on, its calibrating the gyro.
  * Do keep the wheels/axle clean of hair and debris, and take off the wheels to clean the axle if necessary. 
