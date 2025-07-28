@@ -44,6 +44,5 @@
 
 * B F F F R F L F L F O F R F L F R F R F O F F R F F O F F F L F R F O F L F R F F R F E
 
-(I know the code is kinda shitty but if it works it works)
 
 **Rowan Kelly 2025**
