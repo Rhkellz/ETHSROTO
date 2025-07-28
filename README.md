@@ -1,4 +1,4 @@
-# This is a guide on operation of my Robot Tour robot
+# This is a guide on operation of the Robot Tour robot
 
 ## General Info:
  * The robot is a Pololu Romi
